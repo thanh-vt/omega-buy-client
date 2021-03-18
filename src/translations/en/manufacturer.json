@@ -1,0 +1,32 @@
+{
+  "validation": {
+    "code": {
+      "required": "Code cannot be left blank",
+      "min": "Code must have at least {{min}} characters",
+      "max": "Code can only have a maximum of {{max}} characters"
+    },
+    "name": {
+      "required": "Name cannot be left blank",
+      "min": "Name must have at least {{min}} characters",
+      "max": "Name can only have a maximum of {{max}} characters"
+    }
+  },
+  "placeholder": {
+    "code": "Enter manufacturer code",
+    "name": "Enter manufacturer name",
+    "description": "Enter a brief description about the manufacturer"
+  },
+  "message": {
+    "confirm": {
+      "save": "Do you want to save this manufacturer data?",
+      "delete": "Are you sure that you want to delete this manufacturer data?"
+    }
+  },
+  "title": {
+    "create": "Add Manufacturer",
+    "update": "Update Manufacturer",
+    "code": "Manufacturer Code",
+    "name": "Manufacturer Name",
+    "description": "Description"
+  }
+}

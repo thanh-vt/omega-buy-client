@@ -1,0 +1,40 @@
+{
+  "language": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "title": {
+    "home": "Trang chủ",
+    "management": "Quản lý",
+    "manufacturer": "Nhà sản xuất",
+    "product": "Sản phẩm",
+    "confirm": "Xác nhận"
+  },
+  "button": {
+    "create": "Tạo mới",
+    "edit": "Sửa",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "language": "Ngôn ngữ",
+    "profile": "Hồ sơ",
+    "setting": "Cài đặt",
+    "dropdown": "--Chọn--"
+  },
+  "label": {
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "remember": "Ghi nhớ đăng nhập"
+  },
+  "placeholder": {
+    "username": "Điền tên người dùng/Email",
+    "password": "Điền mật khẩu"
+  },
+  "notification": {
+    "sessionExpired": {
+      "title": "Đăng nhập hết hiệu lực" ,
+      "message": "Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại!"
+    }
+  }
+}

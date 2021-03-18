@@ -1,0 +1,32 @@
+{
+  "validation": {
+    "code": {
+      "required": "Mã Nhà sản xuất không được để trống",
+      "min": "Mã Nhà sản xuất phải có tối thiểu {{min}} ký tự",
+      "max": "Mã Nhà sản xuất chỉ có thể có tối đa {{max}} ký tự"
+    },
+    "name": {
+      "required": "Tên Nhà sản xuất không được để trống",
+      "min": "Tên Nhà sản xuất phải có tối thiểu {{min}} ký tự",
+      "max": "Tên Nhà sản xuất chỉ có thể có tối đa {{max}} ký tự"
+    }
+  },
+  "placeholder": {
+    "code": "Điền mã nhà sản xuất",
+    "name": "Điền tên nhà sản xuất",
+    "description": "Điền mô tả tóm tắt về nhà sản xuất"
+  },
+  "message": {
+    "confirm": {
+      "save": "Bạn có muốn lưu dữ liệu nhà sản xuất?",
+      "delete": "Bạn có chắc chắn muốn xóa dữ liệu nhà sản xuất?"
+    }
+  },
+  "title": {
+    "create": "Thêm nhà sản xuất",
+    "update": "Cập nhật nhà sản xuất",
+    "code": "Mã Nhà SX",
+    "name": "Tên Nhà SX",
+    "description": "Mô tả"
+  }
+}

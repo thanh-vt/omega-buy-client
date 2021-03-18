@@ -1,0 +1,37 @@
+{
+  "validation": {
+    "code": {
+      "required": "Mã SP không được để trống",
+      "min": "Mã SP phải có tối thiểu {{min}} ký tự",
+      "max": "Mã SP chỉ có thể có tối đa {{max}} ký tự"
+    },
+    "name": {
+      "required": "Tên SP không được để trống",
+      "min": "Tên SP phải có tối thiểu {{min}} ký tự",
+      "max": "Tên SP chỉ có thể có tối đa {{max}} ký tự"
+    },
+    "manufacturer": {
+      "required": "Nhà sản xuất phải được chọn"
+    }
+  },
+  "placeholder": {
+    "code": "Enter product code",
+    "name": "Enter product name",
+    "description": "Enter a brief description about the product",
+    "manufacturer": "--Choose a manufacturer--"
+  },
+  "message": {
+    "confirm": {
+      "save": "Bạn có muốn lưu nhà dữ liệu sản phẩm?",
+      "delete": "Bạn có chắc chắn muốn xóa dữ liệu sản phẩm?"
+    }
+  },
+  "title": {
+    "create": "Thêm sản phẩm",
+    "update": "Cập nhật sản phẩm",
+    "code": "Mã sản phẩm",
+    "name": "Tên sản phẩm",
+    "description": "Mô tả",
+    "manufacturer": "Nhà SX"
+  }
+}

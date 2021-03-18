@@ -1,0 +1,40 @@
+{
+  "language": {
+    "en": "English",
+    "vi": "Vietnamese"
+  },
+  "title": {
+    "home": "Home",
+    "management": "Management",
+    "manufacturer": "Manufacturer",
+    "product": "Product",
+    "confirm": "Confirmation"
+  },
+  "button": {
+    "create": "Create New",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language",
+    "profile": "Profile",
+    "setting": "Setting",
+    "dropdown": "--Select--"
+  },
+  "label": {
+    "username": "Username",
+    "password": "Password",
+    "remember": "Remember"
+  },
+  "placeholder": {
+    "username": "Enter username/email",
+    "password": "Enter password"
+  },
+  "notification": {
+    "sessionExpired": {
+      "title": "Session expired" ,
+      "message": "Your session has been expired, please login again!"
+    }
+  }
+}

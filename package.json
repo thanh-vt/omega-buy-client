@@ -3,22 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
+    "@types/reach__router": "^1.3.7",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-i18next": "^8.1.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux": "^3.6.0",
+    "@types/yup": "^0.29.11",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.2.6",
+    "i18next": "^19.8.7",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-formik": "^1.6.2",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.6",
+    "react-icons": "^4.1.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:heroku": "env-cmd -f .env.heroku react-scripts build",
+    "build:poweredge": "env-cmd -f .env.poweredge react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.7.0"
   }
 }
