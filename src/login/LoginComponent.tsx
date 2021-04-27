@@ -25,7 +25,7 @@ class LoginComponent extends React.Component<any, any> {
             let textColor = this.props.theme?.text ? this.props.theme?.text : 'text-light';
             let backgroundColor = this.props.theme?.text ? this.props.theme?.background : 'bg-dark';
             return (
-                <div className={'d-flex justify-content-center ' + backgroundColor}>
+                <div className={'d-flex justify-content-center mt-5 ' + backgroundColor}>
                   <Form className="col-4"
                         onSubmit={(e: any) => {
                           e.preventDefault();
