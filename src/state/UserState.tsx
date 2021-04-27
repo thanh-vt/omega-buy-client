@@ -1,5 +1,3 @@
-import {OtherInfo} from "../shared/model/OtherInfo";
-import {UserProfile} from "../shared/model/UserProfile";
 import {Setting} from "../shared/model/Setting";
 
 export interface UserState {
@@ -8,10 +6,15 @@ export interface UserState {
   authorities?: string[] | null;
   expires_in?: number | null;
   id?: number | null;
-  other?: OtherInfo | null;
-  profile?: UserProfile | null;
   refresh_token?: string | null;
   scope?: string | null;
   setting?: Setting | null;
-  token_type?: "bearer" | null;
+  avatar_url: string | null;
+  date_of_birth: number | null;
+  first_name: string | null;
+  gender: number | null;
+  jti: string | null;
+  last_name: string | null;
+  timestamp: number;
+  token_type: "bearer"
 }

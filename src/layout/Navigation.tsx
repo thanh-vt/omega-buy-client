@@ -115,7 +115,7 @@ class Navigation extends React.Component<any, any> {
 const mapStateToProps = (state: AppState) => {
   return {
     username: state?.user?.user_name,
-    avatarUrl: state?.user?.profile?.avatarUrl,
+    avatarUrl: state?.user?.avatar_url,
     route: state?.route?.navigate
   };
 }
