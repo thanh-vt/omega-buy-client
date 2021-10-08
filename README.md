@@ -1,3 +1,17 @@
+# Omega Buy Client
+
+E-Commerce client
+
+## Deployment Url
+
+https://omega-buy.netlify.app
+
+## Technology Stack
+
+- React
+- Typescript
+- Bootstrap 4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
